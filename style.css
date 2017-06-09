@@ -36,12 +36,12 @@ body {
       transform: translateY(-3px); /* account for the height of the clock hands */
     }
     .hand {
-      width:70%;
-      height:7px;
+      width:50%;
+      height:6px;
       background:black;
       position: inherit;
-      top:60%;
-      transform-origin: 90%;
+      top:50%;
+      transform-origin: 100%;
       transform: rotate(90deg);
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
